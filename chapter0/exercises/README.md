@@ -1,5 +1,5 @@
 # Chapter 0 Exercises
-Completed excercise from Chapter 0 of 'Accelerated C++' by Andrew Koenig and Barbara E. Moo.
+Completed excercises from Chapter 0 of 'Accelerated C++' by Andrew Koenig and Barbara E. Moo.
 
 # 0-2
 Write a program that, when run, writes:
