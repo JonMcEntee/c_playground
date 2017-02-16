@@ -3,4 +3,4 @@ Completed excercise from Chapter 0 of 'Accelerated C++' by Andrew Koenig and Bar
 
 # 0-2
 Write a program that, when run, writes:
-	"This (") is a quote, and this (\) is a backslash."
+	"This (") is a quote, and this (\\) is a backslash."
