@@ -1,4 +1,6 @@
-// Ask for a person's name, then generate a framed greeting.
+// the same as compute_grades_mean, except the program computes the homework
+// scores average using the median rather than the mean. This requires a
+// slightly more complicated code.
 #include <algorithm>
 #include <iomanip>
 #include <ios>

@@ -1,4 +1,4 @@
-// Ask for a person's name, then generate a framed greeting.
+// computes a students grade using their midterm, final, and homework scores.
 #include <iomanip>
 #include <ios>
 #include <iostream>
