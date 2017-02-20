@@ -1,6 +1,5 @@
 // 3-3. Write a program to count how many times each distinct word appears
 // in its input.
-#include <algorithm>
 #include <iomanip>
 #include <iostream>
 #include <string>
