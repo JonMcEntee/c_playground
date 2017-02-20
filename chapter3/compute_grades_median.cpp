@@ -34,9 +34,6 @@ int main()
 	// the vector in which we will store the homework grades;
 	vector<double> homework_grades;
 
-	// invariant:
-	// we have read count grades so far, and
-	// sum is the sum of the first count grades
 	double homework_grade;
 	while (cin >> homework_grade)
 	{
