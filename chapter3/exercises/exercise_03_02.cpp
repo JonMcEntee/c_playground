@@ -11,7 +11,6 @@ using std::cin; 	using std::cout;
 using std::endl; 	using std::vector;
 using std::string; 	using std::sort;
 
-
 int main()
 {
 	// the vector in which we will store values;
