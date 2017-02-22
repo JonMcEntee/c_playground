@@ -1,6 +1,5 @@
-// the same as compute_grades_mean, except the program computes the homework
-// scores average using the median rather than the mean. This requires a
-// slightly more complicated code.
+// The same program as compute_grades_median.cpp from chapter 3, but much of
+// the code is now organized into functions.
 #include <algorithm>
 #include <iomanip>
 #include <ios>
@@ -100,16 +99,24 @@ int main()
 	// read homework grades into vector
 	read_homework(cin, homework);
 
-	// calculate the final score
-	// final is worth 40%, midterm is worth 20%,
-	// and homework is worth 40%
-	double final_grade = grade(final, midterm, homework);
+	try
+	{
+		// calculate the final score
+		// final is worth 40%, midterm is worth 20%,
+		// and homework is worth 40%
+		double final_grade = grade(final, midterm, homework);
 
-	// write the result
-	streamsize original_precision = cout.precision();
-	cout << "Your final grade is " << setprecision(3)
-		 << final_grade << setprecision(original_precision)
-		 << endl; 
-
+		// write the result
+		streamsize original_precision = cout.precision();
+		cout << "Your final grade is " << setprecision(3)
+			<< final_grade << setprecision(original_precision)
+			<< endl; 
+	}
+	catch (domain_error)
+	{
+		cout << "You must enter your grades. "
+		"Please try again." << endl;
+		return 1;
+	}
 	return 0;
 }
