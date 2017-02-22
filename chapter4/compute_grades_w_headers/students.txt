@@ -1,4 +1,7 @@
-Steven 89.2 93.2 50.2 95.3 92.2 98.4 97.3
-Dave 89.2 93.2 50.2 95.3 92.2 98.4 97.3
-Red 66.2 45.3 57.9 23 45 23 13 53 23 53
-Blue 50 50 50 50 50
+Try inputting these entries into the program to test it.
+
+Steven 50 34 56 54 56 .
+Dave 50 77 53 76 46 .
+Red 50 50 50 50 50 .
+Blue 88 88 43 40 53 .
+Fred 32 56 .
